@@ -5,6 +5,7 @@
 
   function setup(){
     createCanvas(200, 200);
+    soundFormats('mp3', 'ogg');
     song = loadSound('BTS.mp3', loaded);
     button= createButton('play');
     button.mousePressed(togglePlaying);
